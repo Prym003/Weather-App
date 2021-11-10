@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+
+$color1: #C8DAE6;
+$color2: white;
+$color3: #979797;
+$color4: #ebbb1e;
+$color5: #2092A9;
+
+.Card {
+    margin:  20px 5px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    background-color: $color2;
+    box-shadow: 0px 0px 25px 1px rgba(50, 50, 50, 0.1);
+    
+    h1 {
+        position: absolute;
+        font-family: 'Lato', sans-serif;
+        font-weight:300;
+        font-size:40px;
+        color: $color3;
+        margin-left: 10px;
+        margin-top: 120px;
+    }
+
+    h4 {
+        position: absolute;
+        width: 170px;
+        font-family: 'Lato', sans-serif;
+        font-weight:400;
+        font-size: 20px;
+        color: $color4;
+        margin-left: 10px;
+        margin-top: 45px;
+        text-shadow:0px 0px 1px #626862;
+    }
+    
+    p {
+        position: absolute;
+        font-family: 'Lato', sans-serif;
+        font-weight:400;
+        font-size:24px;
+        color: lighten($color3, 10%);
+        bottom: -15px;
+        left: 10px;
+    }
+     
+    img {
+        position: relative;
+        width: 75px;
+        height: 75px;
+        top: 0;
+        float: right;
+        margin: 20px 20px 0 0;
+    }
+
+    button {
+        position: absolute;
+        margin-left: 185px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size:15px;
+        border-radius: 20px;
+        color: rgb(122, 122, 122);
+        background-color: rgb(233, 233, 233);
+        border-color: rgb(255, 255, 255);
+        transition: ease-in-out;
+        transition-duration: 5s;
+    }
+    
+    button:hover {
+        background-color:linear-gradient(45deg, rgb(233, 233, 233) 35%, #dfb837 100%);    
+    }
+}
+
+.open-modal {
+    width: 250px;
+    height: 250px;
+}

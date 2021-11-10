@@ -1,0 +1,50 @@
+.cards-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: scroll;
+    height: 90vh;
+    width: 100vw;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    scrollbar-color: #d8b713 #ffffff;
+    margin-top: 45px;
+}
+
+.cards-container::-webkit-scrollbar {
+    width: 13px;
+}
+
+.cards-container::-webkit-scrollbar-track {
+    background: #ffffff;
+    border-radius: 10px;
+}
+
+.cards-container::-webkit-scrollbar-thumb {
+    background-color: #d8b713;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+}
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+// * {
+//   scrollbar-width: none;
+//   scrollbar-color: #d8b713 #ffffff;
+// }
+
+/* Chrome, Edge, and Safari */
+// *::-webkit-scrollbar {
+//   width: 13px;
+// }
+
+// *::-webkit-scrollbar-track {
+//   background: #ffffff;
+// }
+
+// *::-webkit-scrollbar-thumb {
+//   background-color: #d8b713;
+//   border-radius: 10px;
+//   border: 3px solid #ffffff;
+// }

@@ -1,0 +1,187 @@
+.card {
+	border: 0;
+	border-radius: 2px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	border-radius: 0.25rem;
+	// .card-body {
+	// 	height: 100px;
+	// }
+	height: 65vh;
+	width: 80vw;
+	margin-top: 5vh;
+	margin-left: 10vw;
+	.closeModal{
+		position: absolute;
+	}
+}
+.card-weather {
+	background: #e1ecff;
+	background-image: linear-gradient( to left bottom, #d6eef6, #dff0fa, #e7f3fc, #eff6fe, #f6f9ff );
+	.card-body {
+		&:first-child {
+			background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1557323760/weather.svg) no-repeat center;
+			background-size: cover;
+			height: 54vh;
+			width: 75.5vw;
+		}
+		background: #ffffff;
+	}
+	.weather-date-location {
+		// padding: 0 0 15px;
+		.stats2{
+			margin-top: 2rem;
+		}
+		.stats {
+			display: flex;
+			border-bottom: 1px solid #9c9c9c;
+			width: 150px;
+			justify-content: center;
+			background-color: #94cce2b0;
+			padding: 3px;
+			border-radius: 5px;
+		};
+		.data{
+			margin-left: 25px;
+		}
+	}
+	.weather-data {
+		padding: 0 0 4.75rem;
+	}
+	.weakly-weather {
+		background: #ffffff;
+		overflow-x: auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		.weakly-weather-item {
+			flex: 0 0 19.8%;
+			border-right: 1px solid #9c9c9c;
+			border-right: 1px solid #9c9c9c;
+			&:first-child {
+				border-left: none;
+			}
+			&:last-child {
+				border-right: none;
+			}
+			text-align: center;
+			i {
+				font-size: 1.2rem;
+			}
+		}
+	}
+}
+.card-body {
+	flex: 1 1 auto;
+	padding: 1rem;
+}
+.h3 {
+	font-size: 1.56rem;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+}
+h3 {
+	font-size: 1.56rem;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+}
+.h1 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+}
+.h2 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+}
+.h4 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+}
+.h5 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+}
+.h6 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+}
+h1 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+}
+h2 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+}
+h4 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+}
+h5 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+}
+h6 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+}
+.text-gray {
+	color: #969696;
+	color: #969696;
+}
+.card-subtitle {
+	color: #969696;
+	color: #969696;
+}
+.new-accounts {
+	ul.chats {
+		li.chat-persons {
+			a {
+				p.joined-date {
+					color: #969696;
+					color: #969696;
+				}
+			}
+		}
+	}
+}
+p {
+	font-size: 13px;
+}
+.description {
+	font-size: 18px;
+}
+
+.mr-auto {
+	margin-right: auto !important;
+}
+.mx-auto {
+	margin-right: auto !important;
+}
+.display-3 {
+	font-size: 2.5rem;
+	margin-block-start: 0.7em;
+    margin-block-end: 0.7em;
+}
+.mb-0 {
+	margin-bottom: 0 !important;
+}
+.my-0 {
+	margin-bottom: 0 !important;
+}
+@media (max-width: 991.98px) {
+	.padding {
+		padding: 1.5rem;
+	}
+}
+@media (max-width: 767.98px) {
+	.padding {
+		padding: 1rem;
+	}
+}
