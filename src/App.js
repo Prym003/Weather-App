@@ -18,7 +18,7 @@ function App() {
 
   const openModal = async (id) => {
     try {
-      let { data: { city: { name, country }, list } } = await axios.get(`http://api.openweathermap.org/data/2.5/forecast?id=${id}&appid=${apiKey}&units=metric`)
+      let { data: { city: { name, country }, list } } = await axios.get(`https://api.openweathermap.org/data/2.5/forecast?id=${id}&appid=${apiKey}&units=metric`)
 
       let WeekInfo = []
       let CityName = name + ', ' + country
@@ -72,7 +72,7 @@ function App() {
 
   const onSearch = async (city) => {
     try {
-      let { data: { name, id, main: { temp }, weather: [{ icon, description }], sys: { country } } } = await axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`)
+      let { data: { name, id, main: { temp }, weather: [{ icon, description }], sys: { country } } } = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`)
       if (cities.some(c => c.id === id)) {
         alert(`${name} it's alredy in the list`)
       } else {
