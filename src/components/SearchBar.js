@@ -22,7 +22,7 @@ export default function SearchBar({ onSearch }) {
             onChange={(e) => setCity(e.target.value)}
           />
           <button type="submit" className="searchButton" onClick={search}>
-            🔍
+            Search!
           </button>
         </div>
       </div>
